@@ -29,6 +29,8 @@
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  padding-right:5px;
+  padding-left:5px;
 }
 
 .main__header {
@@ -49,8 +51,7 @@
   display: -ms-flexbox;
   display: flex;
   max-width: 202px;
-  width: 100%;
-  margin-bottom: 15px;
+  width: 100%; 
 }
 
 .main__logo img {
@@ -104,7 +105,7 @@
   width: -moz-max-content;
   width: max-content;
   padding-right: 3px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .main__name span {
@@ -131,6 +132,7 @@
 
 .main__telegram {
   display: grid;
+  align-items: center;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   width: 100%;
@@ -165,29 +167,37 @@
   border: 1px solid rgba(156, 153, 153, 0.6);
 }
 
+@media (max-width: 560px) { 
+  .main__utm {
+    font-size: 2.3vw;    
+  }
+}
 
 
 
 @media (max-width: 460px) {
-  .main__telegram {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  .main__wrapper {
+    padding-top: 15px;
   }
+ 
   .main__telegram-button {  
     height: 35px;
+    font-size: 2vw;
   }
 
   .main__telegram-text {
-    text-align: center;
+    text-align: right;
+    font-size: 1.8vw;
+    line-height: 1;
   }
+  .main__footer {  
+    padding: 0 0px 30px 0px;
+  }
+  .main__telegram {   
+    gap: 7px;    
+  }
+  
+
 }
 
 *:active,
