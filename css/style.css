@@ -145,7 +145,7 @@
 
 .main__telegram-button {
   background: -webkit-gradient(linear, left top, right top, color-stop(21%, #e4ce96), to(#a87e41));
-  background: linear-gradient(90deg, #e4ce96 21%, #a87e41 100%);
+  background: linear-gradient(128deg, #eecf93 15.18%, #b77e3a 74.22%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -156,11 +156,13 @@
   -ms-flex-pack: center;
   justify-content: center;
   gap: 10px;
-  height: 26px;
+  height: 33px;
   width: 100%;
   font-size: 10px;
   font-weight: 700;
   color: #000;
+  border-radius:6px;
+  border: 1px solid rgba(156, 153, 153, 0.6);
 }
 
 
@@ -178,6 +180,9 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .main__telegram-button {  
+    height: 35px;
   }
 
   .main__telegram-text {
