@@ -168,11 +168,22 @@
 }
 
 @media (max-width: 560px) { 
+  .main__name {
+    line-height: 16px;
+    font-size: 2vw;    
+    padding-right: 3px;
+    margin-bottom: 35px;
+  }
+  
+  .main__name span {
+    line-height: 20px;
+    font-size: 3vw;
+  }
   .main__telegram-text {
     width: 100%;
   }
   .main__utm {
-    font-size: 2.3vw;    
+    font-size: 2.1vw;    
   }
   .main__telegram-button {    
     gap:7px;
@@ -182,20 +193,30 @@
 
 
 @media (max-width: 460px) {
+  .main__name {
+    line-height: 14px;
+    font-size: 2vw;    
+    padding-right: 3px;
+    margin-bottom: 40px;
+  }
+  
+  .main__name span {
+    line-height: 20px;
+    font-size: 3.2vw;
+  }
   .main__wrapper {
     padding-top: 15px;
   }
  
-  .main__telegram-button {  
-    height: 34px;
+  .main__telegram-button { 
     font-size: 2vw;
     gap:5px;
   }
 
   .main__telegram-text {
     text-align: right;
-    font-size: 1.8vw;
-    line-height: 1;
+    font-size: 1.7vw;
+    line-height: 1.2;
   }
   .main__footer {  
     padding: 0 0px 30px 0px;
@@ -213,8 +234,10 @@
   }
   
   .main__title {    
-    font-size: 3vw;
-
+    font-size: 3.1vw;
+  }
+  .main__utm {
+    font-size: 2.4vw;    
   }
 
 }
