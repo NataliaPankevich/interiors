@@ -168,8 +168,14 @@
 }
 
 @media (max-width: 560px) { 
+  .main__telegram-text {
+    width: 100%;
+  }
   .main__utm {
     font-size: 2.3vw;    
+  }
+  .main__telegram-button {    
+    gap:7px;
   }
 }
 
@@ -181,8 +187,9 @@
   }
  
   .main__telegram-button {  
-    height: 35px;
+    height: 34px;
     font-size: 2vw;
+    gap:5px;
   }
 
   .main__telegram-text {
@@ -196,7 +203,19 @@
   .main__telegram {   
     gap: 7px;    
   }
+
+  .main__logo {   
+    max-width: 140px;
+    width: 100%; 
+  }
+  .main__line {
+    margin-bottom: 5px;
+  }
   
+  .main__title {    
+    font-size: 3vw;
+
+  }
 
 }
 
